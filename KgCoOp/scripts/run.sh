@@ -1,0 +1,23 @@
+#CUDA_VISIBLE_DEVICES=1 bash base2new_train.sh imagenet 8.0  4
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh ucf101
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh sun397
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh eurosat
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh oxford_pets
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh food101
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh oxford_flowers
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh stanford_cars
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh dtd
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh caltech101
+CUDA_VISIBLE_DEVICES=2 bash base2new_train.sh fgvc_aircraft
+
+#CUDA_VISIBLE_DEVICES=1 bash base2new_test.sh imagenet  4
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh ucf101
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh sun397
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh eurosat 
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh oxford_pets
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh food101
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh oxford_flowers
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh stanford_cars
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh dtd
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh caltech101
+CUDA_VISIBLE_DEVICES=2 bash base2new_test.sh fgvc_aircraft
