@@ -5,10 +5,9 @@ cd ..
 # custom config
 DATA=/data/yht/data/cl/data
 TRAINER=KgCoOp
-#TRAINER=SimCoOp
-WEIGHT=8.0
 DATASET=$1
-CFG=rn50_ep100  # config file
+#CFG=rn50_ep100  # config file
+CFG=vit_b16_ep100_ctxv1
 CTP=end  # class token position (end or middle)
 NCTX=4  # number of context tokens
 SHOTS=16  # number of shots (1, 2, 4, 8, 16)
@@ -20,8 +19,8 @@ SUB=new
 for SEED in 1 2 3
 do
     COMMON_DIR=${DATASET}/shots_${SHOTS}_${WEIGHT}/${TRAINER}/${CFG}/seed${SEED}
-    MODEL_DIR=output_temp/base2new/train_base/${COMMON_DIR}
-    DIR=output_temp/base2new/test_${SUB}/${COMMON_DIR}
+    MODEL_DIR=output/base2new/train_base/${COMMON_DIR}
+    DIR=output/base2new/test_${SUB}/${COMMON_DIR}
 
 
     if [ -d "$DIR" ]; then
