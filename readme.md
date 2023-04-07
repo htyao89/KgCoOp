@@ -7,6 +7,9 @@
 1. [Dassl.ProGrad.pytorch](Dassl.ProGrad.pytorch/) is the modified toolbox of [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch).
 2. [KgCoOp](KgCoOp/). To get the results in our paper, follow the [README.md](KgCoOp/README.md) under [KgCoOp/](KgCoOp/) to set the environment.
 
+## Highlights
+![main figure](fig_main.pdf)
+We propose a simple and effective visual-language prompt tuning with Knowledge-guided Context Optimization
 
 
 
