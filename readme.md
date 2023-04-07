@@ -14,7 +14,10 @@ We introduce a novel Knowledge-guided Context Optimization (KgCoOp) to enhance t
 | Methods | Prompts | Base | New | H | Training-time|
 |---------|---------|------|------|---|-------------|
 | CLIP | hand-crafted | 69.34 | 74.22 | 71.70 | -|    
-
+| CoOp | textual | 82.63 | 67.99 | 74.60 | 6ms/image|
+| ProGrad | textual | 82.48 | 70.75 | 76.16 | 22ms/image|
+| CoCoOp | textual+visual | 80.47 | 71.69 | 75.83 | 160ms/image|
+| KgCoOp | textual | 80.73 | 73.6 | 77.0 | 6ms/image|
 
 ## Citation
 If you use our work, please consider citing:
