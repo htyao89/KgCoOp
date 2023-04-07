@@ -27,7 +27,7 @@ We found that the the degree of performance degradation on the New classes is co
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
-@inproceedings{khattakMaPLe,
+@inproceedings{kgcoop23,
     title={Visual-Language Prompt Tuning with Knowledge-guided Context Optimization},
     author={Hantao Yao, Rui Zhang, Changsheng Xu},
     booktitle={The IEEE/CVF Conference on Computer Vision and Pattern Recognition},
