@@ -19,6 +19,10 @@ We introduce a novel Knowledge-guided Context Optimization (KgCoOp) to enhance t
 | CoCoOp | textual+visual | 80.47 | 71.69 | 75.83 | 160ms/image|
 | KgCoOp | textual | 80.73 | 73.6 | 77.0 | 6ms/image|
 
+## Main Contributions
+We found that the the degree of performance degradation on the New classes is consistent with the distance between the learnable textual embedding and the hand-crafted textual embedding, which is the core motivation of the KgCoOp.
+![Motivation](fig_motivation.png)
+
 ## Citation
 If you use our work, please consider citing:
 ```bibtex
