@@ -8,7 +8,7 @@
 2. [KgCoOp](KgCoOp/). To get the results in our paper, follow the [README.md](KgCoOp/README.md) under [KgCoOp/](KgCoOp/) to set the environment.
 
 ## Highlights
-![main figure](fig_main.pdf)
+![main figure](fig_main.png)
 We propose a simple and effective visual-language prompt tuning with Knowledge-guided Context Optimization
 
 
