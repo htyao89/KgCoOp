@@ -12,6 +12,7 @@ CTP=end  # class token position (end or middle)
 NCTX=4  # number of context tokens
 SHOTS=16  # number of shots (1, 2, 4, 8, 16)
 CSC=False  # class-specific context (False or True)
+WEIGHT=$2
 
 LOADEP=100
 SUB=new
