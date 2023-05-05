@@ -1,7 +1,7 @@
 
 # Visual-Language Prompt Tuning with Knowledge-guided Context Optimization  [CVPR 2023]
 
-> [**Visual-Language Prompt Tuning with Knowledge-guided Context Optimization**](https://arxiv.org/abs/2210.03117)<br>
+> [**Visual-Language Prompt Tuning with Knowledge-guided Context Optimization**](https://arxiv.org/abs/2303.13283)<br>
 > Hantao Yao, Rui Zhang, Changsheng Xu
 
 ## Highlights
