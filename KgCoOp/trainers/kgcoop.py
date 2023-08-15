@@ -282,7 +282,7 @@ class KgCoOp(TrainerX):
         self.register_model("prompt_learner", self.model.prompt_learner, self.optim, self.sched)
         
         #self.optim_ = build_optimizer(self.model.adapter, cfg.OPTIM)
-        self.sched_ = build_lr_scheduler(self.optim, cfg.OPTIM)
+        #self.sched_ = build_lr_scheduler(self.optim, cfg.OPTIM)
         #self.register_model('clip_adapter', self.model.adapter, self.optim_, self.sched_)
 
         self.scaler = GradScaler() if cfg.TRAINER.COOP.PREC == "amp" else None
@@ -318,7 +318,7 @@ class KgCoOp(TrainerX):
         if (self.batch_idx + 1) == self.num_batches:
             #self.update_lr()
             self.sched.step()
-            self.sched_.step()
+            #self.sched_.step()
         return loss_summary
 
     def parse_batch_train(self, batch):
